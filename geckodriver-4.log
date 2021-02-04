@@ -1,0 +1,30 @@
+1612425238910	geckodriver	INFO	Listening on 127.0.0.1:40057
+1612425238925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePeX8iq"
+
+(firefox:2492097): Gtk-WARNING **: 09:53:59.414: Theme directory actions/22-night of theme Mojave-CT-Night-Mode has no size field
+
+
+(firefox:2492097): Gtk-WARNING **: 09:53:59.424: Theme directory panel/22 of theme Mojave-CT-Night-Mode has no size field
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612425241504	Marionette	INFO	Listening on port 45381
+1612425241577	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612425241603	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1612425248901	Marionette	ERROR	[2147483649] No reply from Marionette:Register
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612425255313	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1612425278386	Marionette	INFO	Stopped listening on port 45381
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

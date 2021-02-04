@@ -32,3 +32,17 @@ Create Items1
    ${policyNumber}=          Call Method    ${CreateItems}       getpolicyNumber
    ${tenderOrigin}=          Call Method    ${CreateItems}       getTenderOrigin
    Create Items              ${tenderId}    ${paymentAgentId}    ${destination}    ${WN}    ${policyNumber}    ${loadingWeight}    ${dischargeWeight}    ${loadingTimeStamp}    ${arrivalTimeStamp}    ${dischargeTimeStamp}    ${tenderOrigin}
+Create Items2
+   ${WN}                     Set Variable                   2120004505
+   ${tenderId}=              call method    ${CreateItems}       getTenderId
+   ${paymentAgentId}=        call method    ${CreateItems}       getPaymentAgentId
+   ${destination}=           call method    ${CreateItems}       getDestination
+   ${loadingWeight}=         call method    ${CreateItems}       getLoadingWeight
+   ${dischargeWeight}=       call method    ${CreateItems}       getDischargeWeight
+   ${loadingTimeStamp}=      call method    ${CreateItems}       getLoadingTimeStamp
+   ${arrivalTimeStamp}=      call method    ${CreateItems}       getArrivalTimeStamp
+   ${dischargeTimeStamp}=    call method    ${CreateItems}       getDischargeTimeStamp
+   ${AddButton}=             call method    ${CreateItems}       getAddButton
+   ${policyNumber}=          Call Method    ${CreateItems}       getpolicyNumber
+   ${tenderOrigin}=          Call Method    ${CreateItems}       getTenderOrigin
+   Create Items              ${tenderId}    ${paymentAgentId}    ${destination}    ${WN}    ${policyNumber}    ${loadingWeight}    ${dischargeWeight}    ${loadingTimeStamp}    ${arrivalTimeStamp}    ${dischargeTimeStamp}    ${tenderOrigin}

@@ -4,13 +4,14 @@ import requests
 import json
 import collections
 import random
+import time
 
 
 class CreateItems:
     def getData(self):
         wn = []
         res = requests.get(
-            'https://api-dev-dot-waybill-project.appspot.com/waybill?method=searchWaybills&filter={"tender_id":13,"status":"NEW"}&integration_token=YAZAN&limit=1')
+            'https://api-dev-dot-waybill-project.appspot.com/waybill?method=searchWaybills&filter={"tender_id":13,"status":"NEW"}&integration_token=YAZAN&limit=2')
         data = res.json()
         data2 = []
         for x in data:
@@ -61,16 +62,30 @@ class CreateItems:
         dischargeWeight = n
         return dischargeWeight
 
+    def str_time_prop(self, start, end, format, prop):
+        stime = time.mktime(time.strptime(start, format))
+        etime = time.mktime(time.strptime(end, format))
+
+        ptime = stime + prop * (etime - stime)
+
+        return time.strftime(format, time.localtime(ptime))
+
+    def random_date(self, start, end, prop):
+        return self.str_time_prop(start, end, '%Y/%m/%d', prop)
+
     def getLoadingTimeStamp(self):
-        loadingTimeStamp = "2021-02-01"
+        loadingTimeStamp = str(self.random_date("2021/01/01",
+                                                "2021/02/04", random.random()))
         return loadingTimeStamp
 
     def getArrivalTimeStamp(self):
-        arrivalTimeStamp = "2021-02-02"
+        arrivalTimeStamp = str(self.random_date("2021/01/01",
+                                                "2021/02/04", random.random()))
         return arrivalTimeStamp
 
     def getDischargeTimeStamp(self):
-        dischargeTimeStamp = "2021-02-02"
+        dischargeTimeStamp = str(self.random_date("2021/01/01",
+                                                  "2021/02/04", random.random()))
         return dischargeTimeStamp
 
     def getpolicyNumber(self):
@@ -84,4 +99,4 @@ class CreateItems:
 
 CreateItems = CreateItems()
 CreateItems.getData()
-CreateItems.getLoadingWeight()
+# CreateItems.getDischargeTimeStamp()

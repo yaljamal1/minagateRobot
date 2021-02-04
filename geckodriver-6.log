@@ -1,0 +1,31 @@
+1612425384816	geckodriver	INFO	Listening on 127.0.0.1:52001
+1612425384830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAiGo4z"
+
+(firefox:2495145): Gtk-WARNING **: 09:56:25.311: Theme directory actions/22-night of theme Mojave-CT-Night-Mode has no size field
+
+
+(firefox:2495145): Gtk-WARNING **: 09:56:25.321: Theme directory panel/22 of theme Mojave-CT-Night-Mode has no size field
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612425387179	Marionette	INFO	Listening on port 37465
+1612425387256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612425387271	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1612425400106	Marionette	ERROR	[2147483649] No reply from Marionette:Register
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612425406395	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:2202/js/src_app_app_js-src_app_axiosTerminal_js-src_app_containers_terminal_contanier_js-src_app_cont-4c90a3.chunk.js line 5536 > eval, line 398: TypeError: document.getElementById(...) is null
+JavaScript error: http://localhost:2202/js/src_app_app_js-src_app_axiosTerminal_js-src_app_containers_terminal_contanier_js-src_app_cont-4c90a3.chunk.js line 5536 > eval, line 392: TypeError: error.data is undefined
+1612426206278	Marionette	INFO	Stopped listening on port 37465

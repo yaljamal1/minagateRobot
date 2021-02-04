@@ -1,0 +1,26 @@
+1612425281078	geckodriver	INFO	Listening on 127.0.0.1:49201
+1612425281093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerFlk3h"
+
+(firefox:2493182): Gtk-WARNING **: 09:54:41.559: Theme directory actions/22-night of theme Mojave-CT-Night-Mode has no size field
+
+
+(firefox:2493182): Gtk-WARNING **: 09:54:41.566: Theme directory panel/22 of theme Mojave-CT-Night-Mode has no size field
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612425283060	Marionette	INFO	Listening on port 46319
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612425283125	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612425283144	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1612425291585	Marionette	ERROR	[4294967297] No reply from Marionette:Register
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 6708 > eval, line 30: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: http://localhost:2202/js/vendors-node_modules_amcharts_amcharts4_themes_animated_js-node_modules_dialog-polyfill_dist_-f7b226.chunk.js line 454 > eval, line 273: Error: Network Error
+1612425314235	Marionette	INFO	Stopped listening on port 46319
