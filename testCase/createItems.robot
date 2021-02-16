@@ -1,14 +1,14 @@
 *** Settings ***
 Library      OperatingSystem
-Library      SeleniumLibrary    timeout=1000    implicit_wait=0
+Library      SeleniumLibrary          timeout=1000    implicit_wait=0
 Library      ReactLibrary
 Variables    login.py
-Variables    createItems.py
+Variables    createItemsWithout.py
 
 
 Resource    component/navigation.robot
 Resource    component/ui.robot
-Resource    component/createItems.robot
+Resource    component/createItemsWithout.robot
 
 *** Test Cases ***
 Login
@@ -20,7 +20,7 @@ Login
     Sleep                 5 seconds
 
 Create Items
-    ${WN}=                    call method    ${CreateItems}       getWN                    5
+    ${WN}=                    call method    ${CreateItems}       getWN                    
     ${tenderId}=              call method    ${CreateItems}       getTenderId
     ${paymentAgentId}=        call method    ${CreateItems}       getPaymentAgentId
     ${destination}=           call method    ${CreateItems}       getDestination

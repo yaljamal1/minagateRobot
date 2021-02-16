@@ -7,11 +7,11 @@ import random
 import time
 
 
-class CreateItems:
-    def getData(self):
+class createItemsWithout:
+    def getWn(self):
         wn = []
         res = requests.get(
-            'https://api-dev-dot-waybill-project.appspot.com/waybill?method=searchWaybills&filter={"tender_id":13,"status":"NEW"}&integration_token=YAZAN&limit=2')
+            'https://api-dev-dot-waybill-project.appspot.com/waybill?method=searchWaybills&filter={"tender_id":13,"status":"ONROAD"}&integration_token=YAZAN&limit=2')
         data = res.json()
         data2 = []
         for x in data:
@@ -40,9 +40,9 @@ class CreateItems:
         destination = "91010025"
         return destination
 
-    def getWN(self, wn):
-        WN = wn
-        return WN
+    # def getWN(self, wn):
+    #     WN = wn
+    #     return WN
 
     def getTN(self):
         TN = "60999999"
@@ -74,18 +74,22 @@ class CreateItems:
         return self.str_time_prop(start, end, '%Y/%m/%d', prop)
 
     def getLoadingTimeStamp(self):
-        loadingTimeStamp = str(self.random_date("2021/01/01",
+        loadingTimeStamp = str(self.random_date("2021/02/01",
                                                 "2021/02/04", random.random()))
+        # loadingTimeStamp = '2021/02/02'
         return loadingTimeStamp
 
     def getArrivalTimeStamp(self):
         arrivalTimeStamp = str(self.random_date("2021/01/01",
                                                 "2021/02/04", random.random()))
+        # arrivalTimeStamp = '2021/02/04'
         return arrivalTimeStamp
 
     def getDischargeTimeStamp(self):
         dischargeTimeStamp = str(self.random_date("2021/01/01",
                                                   "2021/02/04", random.random()))
+        # dischargeTimeStamp = '2021/02/04'
+
         return dischargeTimeStamp
 
     def getpolicyNumber(self):
@@ -97,6 +101,6 @@ class CreateItems:
         return AddButton
 
 
-CreateItems = CreateItems()
-CreateItems.getData()
+createItemsWithout = createItemsWithout()
+createItemsWithout.getWn()
 # CreateItems.getDischargeTimeStamp()
